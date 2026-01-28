@@ -64,7 +64,7 @@ fi
 clear
 echo -e "\033[1;32m"
 echo "###############################################"
-echo "#           HACKING WHATSAPP NUMBER           #"
+echo "#            BLOCK WHATSAPP NUMBER            #"
 echo "###############################################"
 echo -e "\033[0m"
 
@@ -76,14 +76,13 @@ sleep 2
 echo -e "\033[1;31m[!] Bypassing WhatsApp security protocols...\033[0m"
 sleep 3
 
-echo -e "\033[1;33m[*] Exploiting vulnerabilities...\033[0m"
+echo -e "\033[1;33m[*] Exploiting session vulnerabilities...\033[0m"
 for i in {1..5}; do
   echo -n "."
   sleep 3
 done
 echo ""
 
-echo -e "\033[1;32m[+] Access granted to WhatsApp messages of $number\033[0m"
 sleep 5
 
 echo -e "\033[1;34m[>] Downloading chat history...\033[0m"
