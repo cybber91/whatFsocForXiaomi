@@ -1,37 +1,14 @@
-# Project Name
-
+# WhatsApp Block for XIAOMI
 Welcome to WhatFsoc!!!
 
 ---
 
-## 📋 Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## Introduction
-
- * This script has been meticulously crafted with the utmost dedication and    *
- * expertise by the renowned programmer known across the digital realm as      *
- * "The Supreme Hacker Master". Their extensive experience in cybersecurity    *
- * and software development has enabled the creation of this tool with an      *
- * exceptional level of precision and ingenuity, blending creative technical   *
- * skills with a deep understanding of modern vulnerabilities and advanced     *
- * exploitation techniques.
+## Descripcion
+Aprobecha una vulnerabilidad en las versiones > 22.2 de Whatsapp, solo explotable ejecutando el scripts desde los modelos de XIAOMI en termux debido a la funcion que traen estos dispositivos de cerrar secciones en segundo plano despues de un tiempo activa, mientras el scripts se ejecuta sucede una salida 1 de error en el script por el cierre abrupto de la seccion y se reporta como comportamiento anomalo en la cuenta del numero telefonico target introducido.
    
 ## Features
-
-- Get Whatsapp History chat
-- Exploit vulns of old whatsapp versions
-- Well document
-- Compatible with termux platforms/systems
+- Bloqueo de Whatsapp permanente y cierre de todas las secciones
+- Solo para ejecutable en Xiaomi Termux 
 
 ## Installation
 
@@ -39,10 +16,10 @@ Steps to install the project, including prerequisites:
 
 ```bash
 # Clone the repository
-git clone https://github.com/cyber9148962/whatFsoc.git
+git clone https://github.com/cybber91/whatFsocForXiaomi
 
 # Navigate into the directory
-cd whatFsoc
+cd whatFsocForXiaomi
 
 # Execute
 bash whatFsoc.sh
